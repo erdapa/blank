@@ -1,0 +1,32 @@
+{
+  "name": "APP-NAME",
+  "productName": "APP-NAME",
+  "version": "1.2.2",
+  "description": "APP-DESCRIPTION",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "text": "xvfb-maybe electron-mocha main.js",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "USER-NAME.APP-NAME",
+    "mac": {
+      "category": "USER-NAME.app.design"
+    },
+    "win": {
+      "iconUrl": "logo.png"
+    }
+  },
+  "repository": "https://github.com/USER-NAME/REPOSITORY",
+  "keywords": [
+    "APP-NAME",
+    "USER-NAME"  ],
+  "devDependencies": {
+    "electron": "^1.6.1"
+  },
+  "author": "USER-NAME",
+  "homepage": "https://HOME-PAGE-URL",
+  "license": "CC0-1.0"
+}
